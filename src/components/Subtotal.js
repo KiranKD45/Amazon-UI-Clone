@@ -33,8 +33,9 @@ function Subtotal(){
             prefix={"Rs. "}
             
             />
-            
-   <button>Proceed to checkout</button>
+            <Link to ="/payment">
+   <button className="payment-btn">Proceed to checkout</button>
+   </Link>
   
         </div>
     )

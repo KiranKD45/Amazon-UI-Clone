@@ -37,6 +37,7 @@ const[{basket}, dispatch]= useStateValue();
             </div>
             <Link to="/checkout">
             <div className='header-option'>
+              
               <ShoppingCartIcon className='header-shoppingcart-icon'/>
              
             </div>
